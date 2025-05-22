@@ -53,7 +53,7 @@
 .choice-button:hover {
   transform: translateY(-5px);
   border-color: var(--kavia-orange);
-  box-shadow: 0 8px 20px rgba(232, 122, 65, 0.3);
+  box-shadow: 0 8px 20px rgba(232, 122, 65, 0.2);
 }
 
 .choice-button:hover::before {

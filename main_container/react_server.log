@@ -56,3 +56,18 @@ Search for the keywords to learn more about each error.
 
 webpack compiled with 1 error
 Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+  Line 69:5:  'setLastUpdatedScore' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/App.js
+  Line 69:5:  'setLastUpdatedScore' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...

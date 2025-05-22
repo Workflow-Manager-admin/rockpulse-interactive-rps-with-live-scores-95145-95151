@@ -66,7 +66,6 @@ function App() {
   const handleResetScores = () => {
     const newScores = resetScores();
     setScores(newScores);
-    setLastUpdatedScore(null);
   };
 
   return (

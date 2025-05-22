@@ -36,15 +36,16 @@
 
 .choice-emoji {
   font-size: 3.5rem;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 100px;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
   animation: appear 0.5s cubic-bezier(0.26, 0.53, 0.74, 1.48) forwards;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .player-choice .choice-emoji {

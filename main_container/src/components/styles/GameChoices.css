@@ -26,12 +26,12 @@
   justify-content: center;
   width: 120px;
   height: 120px;
-  background: linear-gradient(145deg, #222222, #1c1c1c);
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
   border: 3px solid transparent;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
 }

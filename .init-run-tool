@@ -1,0 +1,4 @@
+{
+    "command": "PORT=<port> BROWSER=none npm start",
+    "working_directory": "/home/kavia/workspace/code-generation/rockpulse-interactive-rps-with-live-scores-95145-95151/main_container"
+}

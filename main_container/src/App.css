@@ -14,11 +14,11 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--kavia-dark);
+  background-color: var(--bg-color);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to bottom, #1A1A1A, #222222);
+  background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
   min-height: 100vh;
 }
 

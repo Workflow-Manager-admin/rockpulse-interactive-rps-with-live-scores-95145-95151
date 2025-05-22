@@ -20,7 +20,6 @@ function App() {
   const [resultMessage, setResultMessage] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [lastUpdatedScore, setLastUpdatedScore] = useState(null);
 
   // Load scores from local storage on initial render
   useEffect(() => {
@@ -51,10 +50,8 @@ function App() {
       const newScores = { ...scores };
       if (result === 'player') {
         newScores.player += 1;
-        setLastUpdatedScore('player');
       } else if (result === 'computer') {
         newScores.computer += 1;
-        setLastUpdatedScore('computer');
       }
       
       setScores(newScores);

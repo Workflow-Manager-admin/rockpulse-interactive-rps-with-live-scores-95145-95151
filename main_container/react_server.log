@@ -36,3 +36,23 @@ src/App.js
   Line 23:10:  'lastUpdatedScore' is assigned a value but never used  no-unused-vars
 
 webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+  Line 53:9:  'setLastUpdatedScore' is not defined  no-undef
+  Line 56:9:  'setLastUpdatedScore' is not defined  no-undef
+  Line 71:5:  'setLastUpdatedScore' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/App.js
+  Line 53:9:  'setLastUpdatedScore' is not defined  no-undef
+  Line 56:9:  'setLastUpdatedScore' is not defined  no-undef
+  Line 71:5:  'setLastUpdatedScore' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
